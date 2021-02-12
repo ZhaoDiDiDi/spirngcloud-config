@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: springcloud-provider-dept
+    name: springcloud-provider-config-dept
 
 #Eure的配置，服务注册到哪里    
 eureka:
@@ -22,9 +22,9 @@ server:
   
 #spring的配置
 spring:
-  profiles: dev
+  profiles: test
   application:
-    name: springcloud-provider-dept
+    name: springcloud-provider-config-dept
 
 #Eure的配置，服务注册到哪里    
 eureka:
