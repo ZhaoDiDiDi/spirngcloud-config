@@ -22,7 +22,7 @@ server:
   
 #spring的配置
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-provider-dept
 
